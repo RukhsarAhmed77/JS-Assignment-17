@@ -1,65 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=
-    , initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        body{
-            height: 100vh;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-        .main-div{
-            border: 1px solid black;
-            height: 800px;
-            width: 600px;
-            
-        }
-        .main-div img{
-            height: 100%;
-            width: 100%;
-            object-fit: cover;
-        }
-    </style>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Link Alert Example</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-    <!-- Question No. 5 -->
-    <!-- <a href="www.instagram.com">Click It</a> -->
-    <!-- Question No. 6 -->
-    <!-- <a href="#" onclick="alert('Tis! Work It')">Click Here</a> -->
+    <!-- Part 02 -->
+    <!-- Question 01 -->
+    <!-- <a href="#" onclick="showAlert()">Click Me!</a> -->
+    
+    <!-- Question 02 -->
+    <!-- <div class="image-container">
+        <img src="./Samsung Galaxy 01.png" alt="Mobile 1" onclick="showAlert('Samsung A34')">
+        <img src="./Samsung Galaxy 02.png" alt="Mobile 2" onclick="showAlert('Samsung Galaxy S21')">
+        <img src="./Samsung Galaxy 03.png" alt="Mobile 3" onclick="showAlert('Samsung A23')">
+    </div> -->
 
-    <!-- Question No.7 -->
-    <div class="main-div">
-        <img src="./img/tiffany-longeway-EM6IYghrUGQ-unsplash.jpg" 
-        onMouseover="src='./img/tiffany-longeway-EM6IYghrUGQ-unsplash.jpg'"
-        onMouseout="src='./img/tiffany-longeway-mbEoujjoa0I-unsplash.jpg'">
-    </div>
+    <!-- Question 03 -->    
+    <!-- <h2>Student Records</h2>
 
+    <table id="studentTable">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>John Doe</td>
+                <td>20</td>
+                <td>A</td>
+                <td><button onclick="this.parentNode.parentNode.remove()">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Jane Smith</td>
+                <td>22</td>
+                <td>B</td>
+                <td><button onclick="this.parentNode.parentNode.remove()">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Michael Johnson</td>
+                <td>19</td>
+                <td>A</td>
+                <td><button onclick="this.parentNode.parentNode.remove()">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Amy Lee</td>
+                <td>21</td>
+                <td>C</td>
+                <td><button onclick="this.parentNode.parentNode.remove()">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Chris Brown</td>
+                <td>23</td>
+                <td>B</td>
+                <td><button onclick="this.parentNode.parentNode.remove()">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Sarah Davis</td>
+                <td>24</td>
+                <td>A</td>
+                <td><button onclick="this.parentNode.parentNode.remove()">Delete</button></td>
+            </tr>
+            <tr>
+                <td>David Wilson</td>
+                <td>25</td>
+                <td>C</td>
+                <td><button onclick="this.parentNode.parentNode.remove()">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Emma Taylor</td>
+                <td>22</td>
+                <td>A</td>
+                <td><button onclick="this.parentNode.parentNode.remove()">Delete</button></td>
+            </tr>
+            <tr>
+                <td>James Moore</td>
+                <td>21</td>
+                <td>B</td>
+                <td><button onclick="this.parentNode.parentNode.remove()">Delete</button></td>
+            </tr>
+            <tr>
+                <td>Olivia Harris</td>
+                <td>19</td>
+                <td>A</td>
+                <td><button onclick="this.parentNode.parentNode.remove()">Delete</button></td>
+            </tr>
+        </tbody>
+    </table> -->
 
-    <script src="app.js"></script>
-    <script>
-        // Question No. 1
-        // While LOOP
-        // var i = 0;
-        // while (i <= 3) {
-        // alert(i);
-        // i++;
-        // }
+    <!-- Question 04 -->
+    <!-- <div class="none">
+        <img id="lightBulb" src="Bulb OFF.webp" alt="Light Bulb" onmouseover="changeImage()" onmouseout="restoreImage()">
+    </div> -->
 
-        // Question No.2
-        // Do While LOOP
-        // var i = 0;
-        // do {
-        // alert(i);
-        // i++;
-        // } while (i <= 3);
-    </script>
+    <!-- Question 04 -->
+    
+    <!-- <div class="known">
+        <h2>Count</h2>
+        <div id="counter">0</div>
+        <div class="unknown">
+            <button onclick="increase()">Increase</button>
+            <button onclick="decrease()">Decrease</button>
+        </div>
+    </div> -->
+    <script src="script.js"></script>
 </body>
-
 </html>
